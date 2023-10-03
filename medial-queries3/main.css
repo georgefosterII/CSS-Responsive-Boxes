@@ -80,15 +80,15 @@ body {
   justify-content: center;
 }
 
-}
-@media (min-width: 100vh) {
+/* code for large screen */
+@media (min-width: 100vh) 
   .container {
     display: grid;
     grid-template-rows:repeat(3,33%);
     grid-template-columns: repeat(3,33%);
     gap: 1px;
   }
-  
+
    .a{
     grid-column-start: 1;
   grid-column-end: 4;
